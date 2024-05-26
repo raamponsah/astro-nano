@@ -22,7 +22,10 @@ export const WORK: Metadata = {
   TITLE: "Work",
   DESCRIPTION: "Explore my professional journey, including roles in academia and industry.",
 };
-
+export const RESEARCH: Metadata = {
+  TITLE: "Research",
+  DESCRIPTION: "Explore research I have worked on in, Data Science and AI, including roles in academia and industry.",
+};
 export const PROJECTS: Metadata = {
   TITLE: "Projects",
   DESCRIPTION: "A showcase of my projects, complete with links to repositories and demos.",
