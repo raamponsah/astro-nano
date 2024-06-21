@@ -1,0 +1,12 @@
+const id = "03-projects-collection/index.md";
+						const collection = "blog";
+						const slug = "03-projects-collection";
+						const body = "\r\nThe `projects` collections is found in `src/content/projects`.\r\n\r\nWorking with the `projects` collection:\r\n\r\n```\r\n📁 /src/content/projects\r\n└── 📁 project-1\r\n      └── 📄 index.md\r\n└── 📁 projects-2\r\n      └── 📄 index.mdx\r\n```\r\n\r\nIn the above example, two static pages will be generated, based on the existence of a classic markdown `.md` file or a jsx compatible markdown `.mdx` file. The folder name represents the slug:\r\n\r\n- `https://example.com/projects/project-1`\r\n- `https://example.com/projects/project-2`\r\n\r\n\r\nAll content must be preceded by required metadata in the markdown file in `yaml` format, and be enclosed by triple dashes. --- ---\r\n\r\n```mdx\r\n---\r\ntitle: \"My awesome project\"\r\ndescription: \"A description of my project.\"\r\ndate: \"Mar 22 2024\"\r\ndraft: false\r\n---\r\n```\r\n\r\nMetadata fields\r\n\r\n| Field       | Req | Type    | Remarks                                          |\r\n| :---------- | :-- | :------ | :----------------------------------------------- |\r\n| title       | Yes | string  | Title of the content. Used in SEO and RSS.       |\r\n| description | Yes | string  | Description of the content. Used in SEO and RSS. |\r\n| date        | Yes | string  | Must be a valid date string (able to be parsed). |\r\n| draft       | No  | boolean | draft: true, content will not be published.      |\r\n| demoURL     | No  | string  | Link to live project demo, if applicable.        |\r\n| repoURL     | No  | string  | Link to project repo, if applicable.             |\r\n\r\nAll that's left to do is write your content under the metadata.\r\n\r\n```mdx\r\n---\r\ntitle: \"My awesome project\"\r\ndescription: \"A description of my project.\"\r\ndate: \"Mar 22 2024\"\r\ndraft: false\r\n---\r\n\r\n### Woot\r\n\r\nThis is a paragraph about my project.\r\n```\r\n\r\n🎉 Congrats, you are now a blogger, _and_ developer.";
+						const data = {title:"Projects Collection",description:"How to add projects to your portfolio.",date:new Date(1710892800000)};
+						const _internal = {
+							type: 'content',
+							filePath: "C:/Users/GATEWAY/DeveloperConsole/astro-nano/src/content/blog/03-projects-collection/index.md",
+							rawData: undefined,
+						};
+
+export { _internal, body, collection, data, id, slug };

@@ -4,7 +4,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
-  site: "my-site-h1zeo7roq-raamponsahs-projects.vercel.app",
+  site: "https://raphaelamponsah.com",
   integrations: [mdx(), sitemap(), tailwind()],
   outDir: 'dist',
   adapter: vercel({
